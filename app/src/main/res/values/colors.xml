@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Amber">#FFBF00</color>
+    <color name="DarkGrey">#615959</color>
+    <color name="DarkButton">#252222</color>
+    <color name="White">#FFFFFF</color>
+    <color name="RED">#FF2D2D</color>
+    <color name="GREEN">#3BFF2D</color>
+    <color name="LIQUID_LVL_COLOR">#A9A9C9</color>
+    <color name="DELETE">#F44336</color>
+</resources>

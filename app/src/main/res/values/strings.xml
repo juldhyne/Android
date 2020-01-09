@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">ProjetAndroid</string>
+    <!--Home Activity-->
+    <string name="connectedAs">Connecté en tant que </string>
+    <string name="hintIP"> Ip</string>
+    <string name="hintRack"> Rack</string>
+    <string name="hintSlot"> Slot</string>
+    <string name="buttonSaveConfig">Enregistrer la configuration</string>
+    <string name="buttonLogOut">Déconnexion</string>
+    <!--Liquid Activity-->
+    <string name="liquidTitle">Asservissement de niveau de liquide</string>
+    <string name="liquidMode">Mode: </string>
+    <string name="liquidLevel">Niveau de liquide: </string>
+    <string name="liquidInitValue">0%</string>
+    <string name="liquidV1">État V1:</string>
+    <string name="liquidV2">État V2:</string>
+    <string name="liquidV3">État V3:</string>
+    <string name="liquidV4">État V4:</string>
+    <!--ToggleButton Texts-->
+    <string name="ButtonON">ON</string>
+    <string name="ButtonOFF">OFF</string>
+    <!--Login Activity-->
+    <string name="hintMail">Mail</string>
+    <string name="hintPassword">Mot de Passe</string>
+    <string name="buttonLogIn">Se Connecter</string>
+    <!--Main Activity-->
+    <string name="appTitle">Automates Management</string>
+    <string name="buttonConnexion">Connexion</string>
+    <string name="buttonInscription">Inscription</string>
+    <!--Pill Activity-->
+    <string name="pillTitle">Conditionnement de comprimés</string>
+    <string name="pillBottlesAreComing">Arrivée des bouteilles: NON</string>
+    <string name="pillAskedPills">Nombre de comprimés demandés: 0</string>
+    <string name="pillStoredPills">Nombre de comprimés stockés: 0</string>
+    <string name="pillStoredBottles">Nombre de bouteilles stockées: 0</string>
+    <!--Pill And Liquid Activities-->
+    <string name="PLC">PLC: /!\\</string>
+    <!--Profile Activity-->
+    <string name="profileMail">Adresse Mail: </string>
+    <string name="profileUpdatePassword"> Modifier le mot de passe </string>
+    <string name="profileDeleteAccount"> Supprimer le compte </string>
+    <!--Register Activity-->
+    <string name="registerFirstName">Prénom</string>
+    <string name="registerLastName">Nom</string>
+    <string name="registerMail">Mail</string>
+    <string name="registerPassword">Mot de passe</string>
+    <string name="registerCreateAccount">Créer mon profil utilisateur</string>
+
+</resources>

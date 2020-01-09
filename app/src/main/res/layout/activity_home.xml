@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tv_connectedas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connectedAs"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_marginVertical="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_pill_user"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circular_button"
+            android:src="@drawable/pill_icon"
+            android:layout_marginRight="25dp"
+            android:onClick="onHomeClickManager"/>
+
+        <ImageButton
+            android:id="@+id/btn_liquid_user"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circular_button"
+            android:src="@drawable/liquid_icon"
+            android:layout_marginRight="25dp"
+            android:onClick="onHomeClickManager"/>
+
+        <ImageButton
+            android:id="@+id/btn_profile_user"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circular_button"
+            android:src="@drawable/user_profile_icon"
+            android:onClick="onHomeClickManager"/>
+
+    </LinearLayout>
+
+    <View
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/config_icon"
+        />
+    <!--
+    <ImageButton
+        android:id="@+id/btn_w"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/config_icon"
+        android:onClick="onHomeClickManager"
+        />
+        Créer des activités d'informations(peut etre)
+-->
+
+    <EditText
+        android:textCursorDrawable="@color/DarkGrey"
+        android:background="@drawable/input_style"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintIP"
+        android:id="@+id/ET_ip"/>
+
+    <EditText
+        android:textCursorDrawable="@color/DarkGrey"
+        android:background="@drawable/input_style"
+        android:inputType="number"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintRack"
+        android:id="@+id/ET_rack"/>
+
+    <EditText
+        android:inputType="number"
+        android:textCursorDrawable="@color/DarkGrey"
+        android:background="@drawable/input_style"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintSlot"
+        android:id="@+id/ET_slot"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSaveConfig"
+        android:id="@+id/btn_saveconf"
+        android:onClick="onHomeClickManager"
+        android:background="@color/DarkButton"
+        android:textColor="@color/White"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonLogOut"
+        android:id="@+id/btn_logout"
+        android:onClick="onHomeClickManager"
+        android:background="@android:color/transparent"
+        android:textColor="@color/DarkButton"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/btn_web"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/liquid_bckgrnd_level"
+        android:onClick="onHomeClickManager"
+        android:src="@drawable/web_icon" />
+
+
+
+
+</LinearLayout>

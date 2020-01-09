@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/iv_profile_pic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/user_icon" />
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/DarkButton"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_usermail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profileMail"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/btn_modify_passwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/DarkButton"
+        android:textColor="@color/White"
+        android:text="@string/profileUpdatePassword"
+        android:layout_marginTop="15dp"
+        android:onClick="onProfileClickManager"/>
+
+    <Button
+        android:id="@+id/btn_delete_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/DELETE"
+        android:textColor="@color/DarkButton"
+        android:text="@string/profileDeleteAccount"
+        android:layout_marginTop="60dp"
+        android:onClick="onProfileClickManager"/>
+</LinearLayout>

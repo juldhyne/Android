@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:layout_marginTop="-70dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/user_icon"
+        />
+
+    <EditText
+        android:textCursorDrawable="@color/DarkGrey"
+        android:background="@drawable/input_style"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registerFirstName"
+        android:inputType="text"
+        android:id="@+id/ET_firstname"/>
+
+    <EditText
+        android:textCursorDrawable="@color/DarkGrey"
+        android:background="@drawable/input_style"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registerLastName"
+        android:inputType="text"
+        android:id="@+id/ET_lastname"/>
+
+    <EditText
+        android:textCursorDrawable="@color/DarkGrey"
+        android:background="@drawable/input_style"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registerMail"
+        android:inputType="textEmailAddress"
+        android:id="@+id/ET_mail"/>
+
+    <EditText
+        android:textCursorDrawable="@color/DarkGrey"
+        android:background="@drawable/input_style"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registerPassword"
+        android:inputType="textPassword"
+        android:id="@+id/ET_password"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerCreateAccount"
+        android:id="@+id/btn_Register"
+        android:onClick="onRegisterClickManager"
+        android:background="@color/DarkButton"
+        android:textColor="@color/White"/>
+
+</LinearLayout>
